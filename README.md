@@ -1,4 +1,4 @@
 # LOL
 - NAME : RIDHO
-
+- CLASS : 1I
 # PHEI PHEI
