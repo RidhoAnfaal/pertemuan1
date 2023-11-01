@@ -12,7 +12,7 @@ import java.text.DecimalFormatSymbols;
 import java.text.ParseException;
 //import end
 
-public class ProjekAkhir {
+public class nothing {
     public static void main(String[] args) {
         //var 
         Scanner input = new Scanner(System.in);
