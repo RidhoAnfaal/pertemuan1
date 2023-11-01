@@ -1,5 +1,0 @@
-# LOL
-- NAME : RIDHO
-- CLASS : 1I
-AAA
-# PHEI PHEI
