@@ -12,7 +12,7 @@ import java.text.DecimalFormatSymbols;
 import java.text.ParseException;
 //import end
 
-public class ProjekAkhir {
+public class nothing {
     public static void main(String[] args) {
         //var 
         Scanner input = new Scanner(System.in);
@@ -93,8 +93,9 @@ public class ProjekAkhir {
                         System.out.print("The balance amount you want to input: Rp.");
                         remainingBalance = input.nextDouble();
                         System.out.println(cName + " your balance entry request has been submitted");
-                    }
-                    System.out.println(" - THANK YOU -\n");
+                        System.out.println(" - THANK YOU -\n");
+                    }else
+                        System.out.println(" - THANK YOU -\n");    
                     break;
 
                 case 2:
@@ -113,7 +114,7 @@ public class ProjekAkhir {
                     if (inputBalance) {
                         remainingdebt = loanAmount - remainingBalance;
                         monthlyInterest = loanTerm * interest * remainingdebt;
-                         totalDebttobePaid = monthlyInterest + remainingdebt;
+                        totalDebttobePaid = monthlyInterest + remainingdebt;
                         monthlyInstallments = totalDebttobePaid / loanTerm; 
                         String x = kursIndonesia.format(monthlyInstallments);
                          String y = kursIndonesia.format(monthlyInterest);
